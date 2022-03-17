@@ -1,26 +1,26 @@
 ---
 apiVersion: apps/v1
-kind: Deployment
+kind: Deploymentcd op
 metadata:
   labels:
-    app: bgd
-  name: bgd
-  namespace: bgd
+    app: rawad
+  name: rawad
+  namespace: rawad
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: bgd
+      app: rawad
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: bgd
+        app: rawad
     spec:
       containers:
-      - image: quay.io/redhatworkshops/bgd:latest
-        name: bgd
+      - image: quay.io/redhatworkshops/rawad:latest
+        name: rawad
         env:
         - name: COLOR
           value: "blue"
