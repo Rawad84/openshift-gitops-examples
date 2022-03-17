@@ -19,7 +19,7 @@ spec:
         app: rawad
     spec:
       containers:
-      - image: quay.io/redhatworkshops/rawad:latest
+      - image: quay.io/redhatworkshops/bgd:latest
         name: rawad
         env:
         - name: COLOR
