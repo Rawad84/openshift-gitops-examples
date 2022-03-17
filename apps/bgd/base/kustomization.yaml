@@ -1,4 +1,4 @@
-namespace: bgd
+namespace: rawad
 resources:
 - bgd-svc.yaml
 - bgd-deployment.yaml
